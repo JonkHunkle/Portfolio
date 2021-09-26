@@ -1,0 +1,211 @@
+*{
+    font-family: monospace;
+    margin:0%;
+    text-decoration: none;
+}
+
+}
+body{
+ display: flex;
+ flex-direction: column;
+    background-color:plum;
+    align-items: center;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+    height:150px;
+    justify-content: space-between;
+}
+
+header H1{
+    font-size:200px;
+    display: flex;
+    background-color: darkgreen;
+    padding-right:200px;
+    margin:3px;
+    align-items: flex-start;
+    box-shadow:15px -10px lightgrey;
+    margin-left: 25px;   
+    padding-top:0px;
+}
+
+
+header a{
+    color:rgb(238, 253, 24);
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:0px 5px;
+    margin: 0px 4px;
+    border: 3px dotted black;
+    background-color: #FF0000;
+    font-size: .7 em;
+}
+
+nav{
+    font-size: 2em;;
+    height:33%;
+    display: flex;
+    padding: 4px;
+    padding-top: 2px;
+    align-self:flex-end;
+    margin-right:1%;
+}
+.me{
+    width: 100%;
+    height:100px;
+    display: flex;
+    background-color:lightsalmon;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2.5em   
+}
+
+
+
+.card{
+    display: flex;
+    background-color: darkgoldenrod;
+   flex-direction: column;
+   align-items: center;
+}
+
+#about{
+    font-size: 1.5em;
+    width:50%;
+    padding:5px;
+    display: flex;
+    align-items: center;
+    background-color:peachpuff;
+    
+}
+
+#about p{
+    font-size:1em;
+    padding:5px 25%;
+    line-height: 1.5;
+}
+
+#bandcamp{
+    font-size: 2.5em;
+    font-style: italic;
+    display: flex;
+    width:100%;
+    height:300px;
+    background-image: url(https://il6.picdn.net/shutterstock/videos/10452776/thumb/1.jpg);
+    align-items: center;
+    justify-content:center;
+  
+}
+
+#bandcamp a{
+    color:yellow;
+}
+#rsp{
+    height: 150px;
+    width:75%;
+    background-color: lime;
+    display:flex;
+    align-self:flex-end;
+    justify-content: center;
+    align-items:center;
+    
+    border:3px solid black;
+}
+#rsp a{
+    align-content: center;
+}
+#contact{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-size:2.5em;
+    height: 300px;
+    background-color: cyan;
+}
+#contact h3{
+    margin-bottom: 50px;
+}
+#wiz{
+     display: flex;
+     flex-direction: column;
+     align-items:center;    
+}
+
+@media screen and (max-width:992px) {
+   header{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+  
+    #about{
+        padding: 10% 0;
+       background-color:coral
+   }
+   .me{
+       align-items: flex-end;
+   }
+   #bandcamp a{
+       color:gainsboro ;
+   }
+   #rsp{
+    background-color: darkgoldenrod;
+    box-shadow: -480px 0px lime;
+    color:lightgray
+   }
+   #contact{
+       background-color: silver;
+   }
+}
+@media screen and (max-width:768px) {
+.me{
+    font-size: 1.6em;
+ 
+}
+    #about{
+        width:100%;
+        background-color:azure;
+   }
+   #bandcamp a{
+       color: lawngreen;
+   }
+   #contact{
+    background-color: mediumslateblue;
+}
+}
+
+@media screen and (max-width:576px) {
+    #bandcamp a{
+        color:orangered ;
+    }
+    
+    #about{
+        background-color:cornsilk;
+       
+    }
+    #rsp{
+        width: 100%;
+        background-color: rgb(29, 197, 141);
+        align-content: center;
+        
+    }
+    header h1{
+        margin-left:0px;
+        font-size: 5em;
+        padding:0px;
+        height:100px;
+    }
+    nav{
+        justify-self: flex-start;
+        padding:1px;
+        margin:0;
+        
+    }
+    #contact{
+        background-color: chartreuse;
+    }
+}
