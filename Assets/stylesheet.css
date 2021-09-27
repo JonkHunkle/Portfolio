@@ -15,7 +15,7 @@ header {
   background-color: aqua;
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 300px;
   justify-content: space-between;
 }
 
@@ -32,7 +32,7 @@ header H1 {
 }
 
 header a {
-  color: rgb(238, 253, 24);
+  color: #eefd18;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -49,9 +49,9 @@ nav {
   height: 33%;
   display: flex;
   padding: 4px;
-  padding-top: 2px;
-  align-self: flex-end;
+  align-self: center;
   margin-right: 1%;
+  align-items: center;
 }
 .me {
   width: 100%;
@@ -74,18 +74,18 @@ nav {
 #about {
   font-size: 1.5em;
   width: 50%;
-  height: 600px;
-  padding: 5px;
+  height: 850px;
+  padding: 15px 5px;
   flex-direction: column;
   display: flex;
   align-self: center;
   background-color: peachpuff;
 }
 #david {
-  margin: 3% 0;
+  margin: 5% 0;
   border-radius: 25% 10% 30%;
   display: flex;
-  width: 10em;
+  width: 15em;
   height: auto;
   justify-content: flex-end;
 }
@@ -130,7 +130,7 @@ nav {
   align-items: center;
   font-size: 2.5em;
   height: 400px;
-  background-color: cyan;
+  background-color: rgb(0, 255, 255);
   line-height: 2;
 }
 #contact h3 {
@@ -146,20 +146,28 @@ nav {
 }
 
 @media screen and (max-width: 992px) {
+  #david {
+    width: 10em;
+  }
   header {
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+  }
+  header h1 {
+    margin-top: 35px;
   }
 
   #about {
-    padding: 10% 0;
+    height: 680px;
+    padding: 5px 0;
     background-color: coral;
+    font-size: 1.3em;
   }
   .me {
     align-items: flex-end;
   }
   #bandcamp a {
-    color: gainsboro;
+    color: springgreen;
   }
   #rsp {
     background-color: darkgoldenrod;
@@ -171,10 +179,22 @@ nav {
   }
 }
 @media screen and (max-width: 768px) {
+  #david {
+    width: 10em;
+  }
+  header {
+    height: 400px;
+  }
+  header h1 {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
   .me {
     font-size: 1.6em;
   }
   #about {
+    padding-top: 5px;
     width: 100%;
     background-color: azure;
   }
@@ -187,12 +207,19 @@ nav {
 }
 
 @media screen and (max-width: 576px) {
+  #david {
+    width: 10em;
+  }
+  header {
+    height: 300px;
+  }
   #bandcamp a {
     color: orangered;
   }
 
   #about {
     background-color: cornsilk;
+    height: 700px;
   }
   #rsp {
     width: 100%;
@@ -212,5 +239,8 @@ nav {
   }
   #contact {
     background-color: chartreuse;
+  }
+  header h1 {
+    margin-top: 13%;
   }
 }
