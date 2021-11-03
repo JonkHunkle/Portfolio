@@ -155,6 +155,9 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+/* footer {
+  height: 200 px;
+} */
 
 @media screen and (max-width: 992px) {
   #david {
