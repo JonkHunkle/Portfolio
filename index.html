@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BADA BING</title>
+    <title>Welcome</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -22,37 +22,42 @@
       sizes="16x16"
       href="Assets/images/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="Assets/stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" />
+    
   </head>
 
   <body>
-    <header>
-      <h1>David</h1>
-      <nav>
-        <a href="#about">about me</a>
-        <a href="#work"> WORK</a>
-        <a href="#contact">HIT ME UP</a>
+    <span class='container'>
+    <header class='row s9'>
+      <h1 class ='col z-depth-4 circle'>David</h1>
+      <span class="container">
+      <nav class='row s3'>
+        <a class="row" href="#about">about me</a>
+        <a class="row"  href="#work"> WORK</a>
+        <a class="row" href="#contact">HIT ME UP</a>
       </nav>
+    </span>
     </header>
-
-    <section class="me">
-      <h2>Welcome to my landing page!</h2>
-    </section>
-
-    <section class="card" id="about">
-        <img id="david" src="Assets/images/David.jpeg" />
-        <h3>The Legend is Here!</h3>
-        <p>
-          The goblin stirs in his bed of teeth, dreaming of the perfect webist.
+</span>
+    
+    <section class="card row " id="about">
+        <img class='col' id="david" src="Assets/images/David.jpeg" />
+        <h3 class='col'>The Legend is Here!</h3>
+        <p class='col'>
+          The goblin stirs in his bed of teeth, dreaming of the perfect website.
           Without warning, the rotted door to the sleeping chamber crashes open,
           replaced with the hulking image of David. Armed only with a keyboard
           and mouse, this coding warrior takes no prisoners.
         </p>
       </div>
     </section>
-
     <section class="card" id="work">
+      <div id='project'>
+        <a href="https://jonkhunkle.github.io/Project-1/" target='_blank'>
+        <h3>Movies and Cocktails!</h3></a>
+      </div>
       <div id="bandcamp">
         <a
           href="https://aboyandhiscomputer.bandcamp.com/releases"
@@ -84,6 +89,19 @@
       </div>
     </section>
 
-    <footer></footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./assets/scripts.js"></script>
   </body>
 </html>
