@@ -1,4 +1,4 @@
-let html = $(`
-<h4> It is currently: ${moment().format("LT")}</h4>
-`);
-$("#time").append(html);
+function update() {
+  $("#time").text("it is currently: " + moment().format("LTS"));
+}
+setInterval(update, 1000);
