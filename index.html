@@ -33,20 +33,20 @@
   <body class='w-screen'>
  
     <header class='flex flex-col w-screen'>
-      <h1 class ='rounded-full py-3 px-6'>David</h1>
+      <h1 class ='rounded-full py-3 px-2'>David</h1>
       
       <nav class='flex flex-row justify-around '>
-        <a class="" href="#about">about me</a>
-        <a class=""  href="#work"> WORK</a>
-        <a class="" href="#contact">HIT ME UP</a>
+        <a class="w-1/4" href="#about">about me</a>
+        <a class="w-1/4"  href="#work"> WORK</a>
+        <a class="w-1/4" href="#contact">HIT ME UP</a>
       </nav>
 
     </header>
 
     
-    <section class=" flex flex-row content-evenly w-screen" id="about">
-        <img class='self-start' id="david" src="Assets/images/David.jpeg" />
-        <span class=' flex flex-col self-center '>
+    <section class=" flex md:flex-row sm:flex-col justify-around" id="about">
+        <img class='' id="david" src="Assets/images/David.jpeg" />
+        <span class=' flex  flex-col self-center '>
         <h3 class='text-center mb-4 text-blue-900 text-4xl'>The Legend is Here!</h3>
         <p class='font-black'>
           The goblin stirs in his bed of teeth, dreaming of the perfect website.
@@ -58,7 +58,6 @@
     </section>
     <section class="card flex flex-col" id='work'>
 
-      <!-- need to center text -->
       <div id='project' class ='w-1/2 flex flex-col self-center place-content-center '>
         <span class="flex flex-col conent-center">
         <a class='text-center text-4xl hover:text-green-400'href="https://jonkhunkle.github.io/Project-1/" target='_blank'>
@@ -69,21 +68,22 @@
       </div>
       
       
-      <div id="bandcamp">
-        <a
-          href="https://aboyandhiscomputer.bandcamp.com/releases"
+      <div class='flex flex-col'id="bandcamp">
+        <a class='hover:text-green-400'
+          href="https://techblawg.herokuapp.com/"
           target="_blank"
         >
-          <h4>A Boy and His Computer</h4>
-        </a>
+          <p class='hover:text-green-400 text-4xl'>Tech Blog!</p>
+        </a><a href="https://github.com/JonkHunkle/techblog" target='_blank'>
+          <h5 class='text-2xl hover:text-green-400'>Repo</h5></a>
       </div>
 
       <div class='flex self-start' id="rsp">
         <a href="https://jonkhunkle.github.io/Day-planner/" target="_blank">
-          <h2 class='text-4xl'>DAY PLANNER</h2>
+          <h2 class='text-4xl hover:text-green-400'>DAY PLANNER</h2>
         </a>
         <a href="https://github.com/JonkHunkle/Day-planner" target='_blank'>
-          <h5 class='text-2xl'>Repo</h5></a>
+          <h5 class='text-2xl hover:text-green-400'>Repo</h5></a>
       </div>
     </section>
 
@@ -91,13 +91,14 @@
       <div>
         <h3>ASK A WIZARD</h3>
         <div id="wiz">
-          <a href="https://www.linkedin.com/in/david-czerwinski1" target="_blank"
+          <a  href="https://www.linkedin.com/in/david-czerwinski1" target="_blank"
             >My Linkdin!</a
           >
           <a href="https://twitter.com/JimboNerton" target="_blank"
             >My Twitter!</a
           >
           <a href="https://github.com/JonkHunkle" target="_blank">My Github!</a>
+          <a href='./Assets/images/DevRes.pdf' target="_blank">My Resume!</a>
         </div>
       </div>
     </section>

@@ -45,7 +45,7 @@ nav {
 
 .card {
 
-  border-color: white;
+  
   background-color: darkgoldenrod;
   
   width: 100%;
@@ -58,10 +58,10 @@ nav {
   background-color: peachpuff;
 }
 #david {
-  margin: 5% 0;
+  margin: 5% 5%;
   border-radius: 25% 10% 30%;
 
-  width: 20em;
+  width: 25em;
   height: auto;
 }
 
@@ -142,104 +142,5 @@ footer {
 footer h4 {
   text-align: center;
 }
-@media screen and (max-width: 992px) {
-  #david {
-    width: 10em;
-  }
-  header {
-    flex-direction: column;
-    height: 400px;
-  }
-  header h1 {
-    margin-top: 35px;
-  }
 
-  #about {
-    height: 680px;
-    padding: 5px 0;
-    background-color: coral;
-    font-size: 1.3em;
-  }
-  
-  #bandcamp a {
-    color: springgreen;
-  }
-  #rsp {
-    background-color: darkgoldenrod;
-    box-shadow: -480px 0px lime;
-    color: lightgray;
-  }
-  #contact {
-    background-color: silver;
-  }
-}
-@media screen and (max-width: 768px) {
-  #david {
-    width: 10em;
-  }
-  header {
-    height: 400px;
-  }
-  header h1 {
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .me {
-    font-size: 1.6em;
-  }
-  #about {
-    padding-top: 5px;
-    width: 100%;
-    background-color: azure;
-  }
-  #bandcamp a {
-    color: lawngreen;
-  }
-  #contact {
-    background-color: mediumslateblue;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  #david {
-    width: 10em;
-  }
-  header {
-    height: 350px;
-  }
-  #bandcamp a {
-    color: orangered;
-  }
-
-  #about {
-    background-color: cornsilk;
-    height: 700px;
-  }
-  #project {
-    background-color: orangered;
-  }
-  #rsp {
-    width: 100%;
-    background-color: rgb(29, 197, 141);
-    align-content: center;
-  }
-  header h1 {
-    margin-left: 0px;
-    font-size: 5em;
-    padding: 0px;
-    height: 100px;
-  }
-  nav {
-    justify-self: flex-start;
-    padding: 1px;
-    margin: 0;
-  }
-  #contact {
-    background-color: chartreuse;
-  }
-  header h1 {
-    margin-top: 13%;
-  }
-}
 
