@@ -97,7 +97,7 @@ nav {
 #rsp {
   flex-direction: column;
   height: 250px;
-  width: 75%;
+  
   background-color: lime;
   display: flex;
   align-self: flex-end;

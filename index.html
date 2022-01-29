@@ -45,7 +45,7 @@
 
     
     <section class=" flex md:flex-row sm:flex-col justify-around" id="about">
-        <img class='' id="david" src="Assets/images/David.jpeg" />
+        <img class='self-center' id="david" src="Assets/images/David.jpeg" />
         <span class=' flex  flex-col self-center '>
         <h3 class='text-center mb-4 text-blue-900 text-4xl'>The Legend is Here!</h3>
         <p class='font-black'>
@@ -57,16 +57,6 @@
         </span>
     </section>
     <section class="card flex flex-col" id='work'>
-
-      <div id='project' class ='w-1/2 flex flex-col self-center place-content-center '>
-        <span class="flex flex-col conent-center">
-        <a class='text-center text-4xl hover:text-green-400'href="https://jonkhunkle.github.io/Project-1/" target='_blank'>
-        Movies and Cocktails!</a>
-        <a class='text-center text-2xl hover:text-green-400'href="https://github.com/JonkHunkle/Project-1" target='_blank'>
-          Repo</a>
-          </span> 
-      </div>
-      
       
       <div class='flex flex-col'id="bandcamp">
         <a class='hover:text-green-400'
@@ -77,14 +67,24 @@
         </a><a href="https://github.com/JonkHunkle/techblog" target='_blank'>
           <h5 class='text-2xl hover:text-green-400'>Repo</h5></a>
       </div>
+<div class='flex justify-around md:flex-row sm:flex-col'>
+      <div id='project' class ='md:w-1/4 sm:w-1/2 flex flex-col self-center place-content-center '>
+        <span class="flex flex-col conent-center">
+        <a class='text-center text-4xl hover:text-green-400'href="https://jonkhunkle.github.io/Project-1/" target='_blank'>
+        Movies and Cocktails!</a>
+        <a class='text-center text-2xl hover:text-green-400'href="https://github.com/JonkHunkle/Project-1" target='_blank'>
+          Repo</a>
+          </span> 
+      </div>
 
-      <div class='flex self-start' id="rsp">
+      <div class='flex self-start md:w-1/4 sm:w-1/2' id="rsp">
         <a href="https://jonkhunkle.github.io/Day-planner/" target="_blank">
           <h2 class='text-4xl hover:text-green-400'>DAY PLANNER</h2>
         </a>
         <a href="https://github.com/JonkHunkle/Day-planner" target='_blank'>
           <h5 class='text-2xl hover:text-green-400'>Repo</h5></a>
       </div>
+    </div>
     </section>
 
     <section class="card" id="contact">
